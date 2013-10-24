@@ -11,7 +11,8 @@ gem 'bootstrap-will_paginate', '0.0.9'
 gem 'ffi'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
+  #gem 'sqlite3', '1.3.8'
+  gem 'pg', '0.15.1'
   gem 'rspec-rails', '2.13.1'
   # The following optional lines are part of the advanced setup.
   gem 'guard-rspec', '2.5.0'
@@ -29,10 +30,10 @@ group :test do
 
 
   # Uncomment this line on OS X.
-  gem 'growl', '1.0.3'
+  #gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
-  # gem 'libnotify', '0.8.0'
+    gem 'libnotify', '0.8.0'
 
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
